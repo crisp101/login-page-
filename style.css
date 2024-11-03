@@ -1,0 +1,335 @@
+
+:root{
+    --background: #fcbe2b;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+
+  body{
+    font-family: "Roboto Flex", serif;
+     font-optical-sizing: auto; 
+     font-style: normal;
+     background-color: var(--background);
+ }
+ h1, .signupLink {
+        text-align: center;
+    }
+
+
+
+    
+ @media (min-width: 400px) and (max-width: 767px) {
+   .container{
+     margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-repeat: no-repeat;
+  background-size: cover;
+background: linear-gradient(45deg, #c061cb 0%, #f8e45c 43%, #f6d32d 61%, #c061cb 91%); 
+ height: 100vh;
+  overflow: hidden;
+ }
+ .center{
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background: white;
+  border-radius: 10px;
+padding-bottom: 3rem;
+box-shadow: 0px 0px 24px 1px #747179;}
+    
+ .center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #ad8787;
+  margin: 30px 0;
+}
+.center form{
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid rgb(144, 130, 130);
+    margin: 30px 0;
+}
+
+
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: gray;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+.pass a{
+  color: black;
+text-decoration: none;}
+
+.pass:hover{
+  text-decoration: underline;
+}
+
+
+input[type="button"]{
+  width: 50%;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+   user-select: none;
+   
+  }
+
+input[type="button"]:hover{
+  background: #2691d9;
+  color: #e9f4fb;
+  transition: .5s;
+}
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+  
+}
+.signup_link a{
+  color: #2691d9;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}
+
+.HomeAbout{
+  width: 100vw;
+  height: 25vh;
+}
+input[value="Login"]{
+  text-align: center;
+  width: 10rem;
+  height: 30px;
+  display: block;
+  margin: 0 auto 1rem;  
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #295a64;
+  
+
+}
+
+}
+
+
+
+
+
+
+@media (min-width: 767px) and (max-width: 2000px) {
+  .container{
+     margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-repeat: no-repeat;
+  background-size: cover;
+background: linear-gradient(45deg, #c061cb 0%, #f8e45c 43%, #f6d32d 61%, #c061cb 91%); 
+ height: 100vh;
+  overflow: hidden;
+ }
+ .center{
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  background: white;
+  border-radius: 10px;
+padding-bottom: 3rem;
+box-shadow: 0px 0px 24px 1px #747179;
+}
+    
+ .center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #ad8787;
+  margin: 40px 0;
+}
+.center form{
+  padding: 0 10rem;
+  box-sizing: border-box;
+}
+
+
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 1.5rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid rgb(144, 130, 130);
+    margin: 50px 0;
+}
+
+
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: gray;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #2691d9;
+}
+
+.pass{
+  margin: 0 0 20px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+.pass a{
+  color: black;
+text-decoration: none;}
+
+.pass:hover{
+  text-decoration: underline;
+}
+
+
+input[type="button"]{
+  width: 50%;
+  height: 10px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+   user-select: none;
+  }
+
+input[type="button"]:hover{
+  background: #2691d9;
+  color: #e9f4fb;
+  transition: .5s;
+}
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+  
+}
+.signup_link a{
+  color: #2691d9;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}
+
+.HomeAbout{
+  width: 100vw;
+  height: 25vh;
+}
+input[value="Login"]{
+  text-align: center;
+  width: 15rem;
+  height: 30px;
+  display: block;
+  margin: 0 auto 1rem;  
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #295a64;
+  
+
+}
+}
+ 
+ 
